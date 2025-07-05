@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --debug",
-    "debug": "echo '=== Node:' && node -v && echo '=== NPM:' && npm -v && echo '=== Files:' && ls -la && npm run build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
