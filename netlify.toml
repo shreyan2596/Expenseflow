@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"
+  command = "npm run debug"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18.20.0"  # ✅ Use a valid and existing Node.js version
+  NODE_VERSION = "18.16.0"  # ✅ Use a valid and existing Node.js version
 
 [[redirects]]
   from = "/*"
